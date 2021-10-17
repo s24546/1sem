@@ -1,7 +1,14 @@
-auto main () -> int
+#include <iostream>
+#include <string>
+
+int main ( int argc , char * argv [])
 {
-auto const a = a s k _ u s e r _ f o r _ i n t e g e r (" a = ");
-auto const b = a s k _ u s e r _ f o r _ i n t e g e r (" b = ");
-std :: cout << ( a + b ) << "\ n ";
+int a , b;
+std :: cout << "Podaj liczbę \n";
+std :: cin >> a;
+std :: cout << "Podaj drugą liczbę \n";
+std :: cin >> b; 
+std :: cout << "Wynik: \n";
+std :: cout << (a + b) << "\n";
 return 0;
 }
