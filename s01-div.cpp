@@ -1,10 +1,11 @@
-# include < iostream >
-# include < string >
+#include <iostream>
+#include <string>
 // for std :: cout , std :: cerr , and std :: cin
-auto main ( int argc , char * argv []) -> int
+int main ( int argc , char * argv [])
 {
-auto const a = std :: stoi ( argv [1]);
-auto const b = std :: stoi ( argv [2]);
-std :: cout << ( a / b ) << "\ n ";
+int a, b;
+std :: cin >> a;
+std :: cin >> b;
+std :: cout <<a/b<< "\n";
 return 0;
 }
