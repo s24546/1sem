@@ -1,30 +1,20 @@
-
 #include <iostream>
 
 int main () 
 {   
 int a;
 std :: cin >> a;
-if (a%3)
-{
-std :: cout << "FIZZ" << std :: endl;
-}   
-if (a%5)
-{
-std :: cout << "BUZZ" << std :: endl;
-}
-for (int i=a-1; i>0; i--)
+for (int i=1; i<=a; i++)
 {      
 std :: cout << i << std :: endl;
-if (i%3)
+if (i%3==0)
 {
 std :: cout << "FIZZ" << std :: endl;
 }   
-if (i%5)
+if (i%5==0)
 {
 std :: cout << "BUZZ" << std :: endl;
 }
 }
 return 0;
 }
-
