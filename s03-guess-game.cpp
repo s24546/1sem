@@ -16,7 +16,7 @@ if (p>50)
 {
 std :: cout << "Number too big!"<< std :: endl;
 }
-}while (p=50); 
+}while (p!=50); 
 std :: cout << "Just Right" << std :: endl;
 return 0;
 } 
