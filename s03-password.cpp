@@ -3,16 +3,17 @@
 
  int main()
 {
-std :: string p;
+std::string p, d;
+std::cout << "Podaj dane:" << std::endl;
+std::cin >> d;
 do
 {
-std :: cout << "Podaj hasło" << std :: endl;
-std :: cin >> p;
+std::cout << "Podaj haslo:" << std::endl;
+std::cin >> p;
 
-}while (p!="student"); 
-std :: cout << "OK!" << std :: endl;
+}while (p!=d);
+std::cout << "OK!" << std::endl;
 return 0;
-} 
-
+}
 
 
