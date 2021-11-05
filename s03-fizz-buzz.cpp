@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main ()
+int main (int argc , char * argv [])
 {
     int a;
     std :: cin >> a;
@@ -9,18 +9,18 @@ int main ()
 
         if(i%3==0 && i%5==0)
         {
-             std :: cout << i << std :: endl;
-            std :: cout << "FIZZBUZZ" << std :: endl;
+             std :: cout << i << "\n";
+            std :: cout << "FIZZBUZZ \n";
         }
         else if (i%3==0)
         {
-             std :: cout << i << std :: endl;
-            std :: cout << "FIZZ" << std :: endl;
+             std :: cout << i << "\n";
+            std :: cout << "FIZZ \n";
         }
         else if (i%5==0)
         {
-             std :: cout << i << std :: endl;
-            std :: cout << "BUZZ" << std :: endl;
+             std :: cout << i <<"\n" ;
+            std :: cout << "BUZZ \n" ;
         }
     }
     return 0;
