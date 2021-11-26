@@ -1,0 +1,11 @@
+#include <iostream>
+auto init(int a[], int n) -> void;
+
+int main()
+{  int rozm;
+    int a[500000];
+        std::cout << "Podaj rozmiar tablicy";
+        std::cin >> rozm;
+        std::cout << a;
+        return 0;
+}
