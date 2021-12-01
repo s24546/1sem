@@ -1,5 +1,5 @@
 #include <iostream>
-auto init(int a[], int n, int start) -> void
+auto init(int a[], int n) -> void
 {
      for(int i=0;i<=n;i++)
     {
