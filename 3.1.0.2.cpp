@@ -3,7 +3,7 @@ auto init(int a[], int n, int start) -> void
 {
      for(int i=0;i<=n;i++)
     {
-     a[i-1]=start-1;
+     a[i]=start;
      start=start+1;
     }
 }
