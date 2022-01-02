@@ -14,7 +14,7 @@ int main() {
 	int n;
 	double a;
 	std::vector <double> liczby;
-	std::cout<<"Podaj iloœæ liczb: ";
+	std::cout<<"Podaj iloÅ“Ã¦ liczb: ";
 	std::cin>>n;
 	std::cout<<"Podaj liczby:\n";
 	for(int i=0;i<n;i++)
