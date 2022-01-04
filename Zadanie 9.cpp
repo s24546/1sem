@@ -9,8 +9,6 @@ auto is_palindrome(std::string d) -> void
     {
         auto tmp = d[i];
         d[i] = d[d.size() - 1 - i];
-        d[d.size() - 1 - i] = tmp;
-
     }
     std::cout<<d<<"\n";
 
