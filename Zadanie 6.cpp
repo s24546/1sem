@@ -1,33 +1,40 @@
-#include <iostream>
-auto is_even(int n) -> void
-{
-    if(n%2==0)
-    {
-        std::cout<<"true"<<"\n";
-    }
-    else
-    {
-        std::cout<<"false"<<"\n";
-    }
-}
-auto is_divisible(int a, int c) -> void
+auto is_divisible(int a, int c)
 {
     if(a%c==0)
     {
-        std::cout<<a<<" jest podzielne przez "<<c<<"\n";
+        return 1;
     }
     else
     {
-        std::cout<<a<<" nie jest podzielne przez "<<c<<"\n";
+        return 0;
     }
 }
+auto is_even(int n) -> bool
+
+{
+    int z;
+	std::cout<<"Podaj liczbe:";
+	std::cin>>z;
+	if(is_divisible(n,z))
+	{
+		return true;
+	}
+	return false;
+}
+
 int main()
 {
-    int b,g;
-    std::cout<<"Podaj liczby:"<<"\n";
-    std::cin>>b>>g;
-    is_even(b);
-    is_divisible(b,g);
+    int b;
+    std::cout<<"Podaj liczbe:"<<"\n";
+    std::cin>>b;
+    if (is_even(b))
+    {
+        std::cout<<"Liczba"<<" "<<b<<" "<<"dzieli sie"<<"\n";
+    }
+    else
+    {
+        std::cout<<"Liczba"<<" "<<b<<" "<<"nie dizeli sie"<<"\n";
+    }
     return 0;
 }
 
